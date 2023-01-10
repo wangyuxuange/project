@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>web大作业</title>
+<link href="style.css" type="text/css" rel="stylesheet" />
+</head>
+<body> 
+   
+    <div class="head"><!--这部分为网页的头部，包含导航栏，表单，视频，和提升用户交互性的界面-->
+        <ul><!--导航栏-->
+            <li>
+                <a href="#主页">主页</a>
+            </li>
+            <li>
+                <a href="1.html">历史</a>
+            </li>
+            <li>
+                <a href="2.html">美食</a>
+            </li>
+            <li>
+                <div class="dropdown">
+                    <a href="3.html" class="dropbtn">文化</a>
+                    <div class="dropdown-content">
+                         <a href="3.html">文化事业</a>
+                         <a href="3.html">科学技术</a>
+                         <a href="3.html">宗教</a>
+                         <a href="3.html">节庆</a>
+                    </div>
+                 </div>
+            </li>
+            <li>
+                <a href="4.html">人物</a>
+            </li>
+            <li>
+                <a href="5.html">景点</a>
+            </li>
+            <li>
+                <div class="dropdown">
+                    <a href="6.html" class="dropbtn">自然</a>
+                    <div class="dropdown-content">
+                         <a href="6.html">位置境域</a>
+                         <a href="6.html">地貌</a>
+                         <a href="6.html">气候</a>
+                         <a href="6.html">水文</a>
+                         <a href="6.html">水资源</a>
+                         <a href="6.html">土地资源</a>
+                         <a href="6.html">生物资源</a>
+                         <a href="6.html">矿产资源</a>
+                    </div>
+                 </div>
+            </li>
+            <li>
+                <div class="dropdown">
+                    <a href="7.html" class="dropbtn">建设</a>
+                    <div class="dropdown-content">
+                         <a href="7.html">经济</a>
+                         <a href="7.html">公路</a>
+                         <a href="7.html">航运</a>
+                         <a href="7.html">航空</a>
+                         <a href="7.html">公共交通</a>
+                         <a href="7.html">医疗资源</a>
+                         <a href="7.html">通信传媒</a>
+                         <a href="7.html">社会保障</a>
+                         <a href="7.html">社会福利</a>
+                    </div>
+                 </div>
+            </li>
+            <li>
+                <div class="dropdown">
+                   <a href="8.html" class="dropbtn">学校</a>
+                   <div class="dropdown-content">
+                        <a href="8.html">教育事业</a>
+                        <a href="8.html">文化事业</a>
+                   </div>
+                </div>
+            </li>
+            <li>
+                <a href="9.html">网页报告</a>
+            </li>
+                <h1 class="h1">NANCHANG南昌</h1>
+        </ul>
+        <div class="div111"><!--表单-->
+            <form action="/action_page.php">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              <br>
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+              <br>
+              <label for="province">province</label>
+              <select id="province" name="province">
+                <option value="shanghai">上海</option>
+                <option value="beijin">北京</option>
+                <option value="jiangxi">江西</option>
+                <option value="hubei">湖北</option>
+                <option value="hunan">湖南</option>
+                <option value="guangzhou">广州</option>
+              </select>
+            
+              <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+    <div class="div"><!--视频-->
+        <div>
+            
+        </div>
+        <div class="div1" class="flex-container"><!--交互性表单-->
+            <div class="div1.1">
+                <p class="p1">^-^大美南昌欢迎你<br>在开始浏览NC前<br>可以选择先填填问答环节噢^_^<br>看看你最想去NC那些地方<br>最想吃那些美食...</p>
+                <form style="width:100%;text-align:center">
+                    <label for="fname">你最想吃的江西美食</label><br>
+                    <input type="text" id="fname" name="fname" placeholder="江西米粉"><br><br>
+                    <label for="lname">你最想去的江西景点</label><br>
+                    <input type="text" id="lname" name="lname" placeholder="滕王阁"><br><br>
+                    <label for="tname">你最想去南昌的哪所高校看看</label><br>
+                        <select id="大学" name="大学">
+                            <option value="南昌大学">南昌大学</option>
+                            <option value="江西财经大学">江西财经大学</option>
+                            <option value="江西师范大学">江西师范大学</option>
+                            <option value="江西科技师范大学">江西科技师范大学</option>
+                            <option value="南昌航空航天大学">南昌航空航天大学</option>
+                            <option value="江西理工大学">江西理工大学</option>
+                            <option value="华东交通大学">华东交通大学</option>
+                            <option value="江西理工大学">江西理工大学</option>
+                            <option value="...">...</option>
+                        </select>
+                </form>
+            </div>
+        </div>
+        <br><br><br>
+        <br><br><br>
+        <div id="main"><!--这里是网页的尾部,也是结束部分,包含一些文字信息,主要运用了动画技术-->
+            <div style="background-color:rgb(255, 255, 255);"></div>
+            <div style="background-color:rgb(18, 114, 117);" id="myBlueDiv"><h1 style="text-align: center;">感谢浏览<br>有问题可与技术人员反馈<br>联系方式:10010010086</h1></div>
+            <div style="background-color:rgb(255, 255, 255);"></div>
+          </div>
+    </div>
+</body>
+</html>

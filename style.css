@@ -1,0 +1,338 @@
+@charset "utf-8";
+/* CSS Document */
+.head{
+    width: 70%;
+    height: 500px;
+    border: 1px solid rgb(20, 135, 150);
+    box-sizing: border-box;
+    margin: auto;
+    box-shadow: 2px 4px 20px #000;
+    background-image: url("img.2.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100% 100%;
+}
+
+audio{
+    display: none;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image: url("img.1.jpg");
+    /*background-color: rgb(1, 112, 112);*/
+    opacity: 0.7;
+    top: 0;
+    
+}
+li {
+float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+input[type=submit] {
+    width: 100%;
+    background-color: #317581;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+  
+input[type=submit]:hover {
+    background-color: #949494;
+}
+  
+.div111 {
+    position: absolute;
+    left: 900px;
+    top: 150px;
+    border-radius: 25px;
+    width: 20%;
+    background-color: #1a7d78;
+    opacity: 0.6;
+    text-align: center;
+}
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgb(0, 0, 0);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: rgb(18, 114, 117)}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: rgb(0, 0, 0);
+}
+
+li a.active {
+color: white;
+background-color: #000000;
+}
+
+video {
+    width: 80%;
+    height: 20%;
+    padding: 10px 100px;
+}
+
+.h1{
+    text-align: center;
+    float: right;
+    padding-right: 100px;
+    margin-top: 14px;
+    font-size: 15px;
+    letter-spacing:10px;
+    font-weight：900;
+    font-family:"花纹云彩";
+    text-shadow:1px 1px #ffffff;
+    -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 5s infinite;
+}
+    /* Chrome, Safari, Opera */
+    @-webkit-keyframes mymove {
+        50% {text-shadow: 10px 20px 30px rgb(0, 0, 0);}
+    }
+
+    /* Standard syntax */
+    @keyframes mymove {
+        50% {text-shadow: 10px 20px 30px rgb(0, 0, 0);}
+    }
+.div{
+    width: 70%;
+    height: 800px;
+    border: 1px solid rgb(14, 102, 105);
+    box-sizing: border-box;
+    margin: auto;
+    box-shadow: 2px 4px 20px #000;
+    background-image: url("img.1.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100% 100%;
+}
+
+.p1{
+    text-align: center;
+    /*padding-right: 100px;*/
+    margin-top: 14px;
+    font-size: 15px;
+    letter-spacing:10px;
+    font-weight：900;
+    font-family:"花纹云彩";
+    text-shadow:1px 1px #ffffff;
+}
+
+input[type=text] {
+    width: 50%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 4px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    opacity: 0.5;
+}
+select{
+    width: 50%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 4px;
+    box-sizing: border-box;
+    opacity: 0.5;
+}
+.div2{
+    border:2000px;
+    padding:80px 100px; 
+    width:80%;
+    border-radius:25px;
+}
+p{
+    text-align:justify;
+    text-indent:50px;
+    color:rgb(255, 255, 255);
+
+}
+.h11{
+    border:1px solid #ffffff;
+    padding:0px 280px; 
+    background:#ffffff;
+    width:300px;
+    border-radius:25px;
+    text-align: center;
+}
+.h11:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.div3{
+    border:2000px;
+    padding:80px 100px; 
+    width:80%;
+    height: 1000px;
+    border-radius:25px;
+}
+div.img{
+    float: left;
+}
+.img {
+    margin: 56px;
+    border: 1px solid rgb(255, 255, 255);
+    float: left;
+    width: 300px;
+    height: 200px;
+}
+.img:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.div4{
+    border:2000px;
+    padding:80px 100px; 
+    width:80%;
+    height: 1000px;
+    border-radius:25px;
+}
+.div5{
+    border:2000px;
+    padding:80px 100px; 
+    width:80%;
+    height: 1000px;
+    border-radius:25px;
+}
+.div6{
+    border:2000px;
+    padding:80px 100px; 
+    width:80%;
+    height: 1500px;
+    border-radius:25px;
+}
+.div7{
+    border:2000px;
+    padding:100px 100px; 
+    width:80%;
+    height: 1200px;
+    border-radius:25px;
+}
+.div8{
+    border:2000px;
+    padding:80px 100px; 
+    width:80%;
+    height: 3000px;
+    border-radius:25px;
+}
+.div9{
+    border:2000px;
+    padding:80px 100px; 
+    width:80%;
+    height: 2600px;
+    border-radius:25px;
+}
+#main {
+    width: 1000px;
+    height: 210px;
+    border: 1px solid #c3c3c3;
+    display: flex;
+    }
+#lj{
+    width: 300px;
+    border: 1px solid #ffffff;
+    height: 40px;
+    text-align: center;
+    display: flex;
+}
+#lj div:nth-of-type(1) {flex-grow: 1;}
+#lj div:nth-of-type(2) {flex-grow: 1;}
+#lj div:nth-of-type(3) {flex-grow: 1;}
+
+#myBlueDiv
+    {
+    animation:mymove 5s infinite;
+    /*Safari 和 Chrome:*/
+    -webkit-animation:mymove 5s infinite;
+    }
+
+    @keyframes mymove
+    {
+    50% {flex-grow:8;}
+    }
+
+    /*Safari 和 Chrome:*/
+    @-webkit-keyframes mymove
+    {
+    50% {flex-grow:8;}
+    }
+#main div:nth-of-type(1) {flex-grow: 1;}
+#main div:nth-of-type(2) {flex-grow: 1;}
+#main div:nth-of-type(3) {flex-grow: 1;}
+
+#myBlueDiv
+    {
+    animation:mymove 5s infinite;
+    /*Safari 和 Chrome:*/
+    -webkit-animation:mymove 5s infinite;
+    }
+
+    @keyframes mymove
+    {
+    50% {flex-grow:8;}
+    }
+
+    /*Safari 和 Chrome:*/
+    @-webkit-keyframes mymove
+    {
+    50% {flex-grow:8;}
+    }
+    .h111{
+        padding: 0px;
+        margin: 0px;
+    }
